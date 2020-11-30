@@ -10,9 +10,9 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/txt_titulo_condominio"
         android:textColor="@color/black"
         android:textSize="18dp"
@@ -25,14 +25,143 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
         android:text="@string/txt_titulo_individual"
         android:textColor="@color/black"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idTxtGeralResult" />
+
+    <TextView
+        android:id="@+id/idTxtGeral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:text="Consumo Geral"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/idTxtGeralMedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:text="Consumo médio"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/idTxtGeral"
+        app:layout_constraintStart_toEndOf="@+id/idTxtGeral"
+        app:layout_constraintTop_toTopOf="@+id/idTxtGeral" />
+
+    <TextView
+        android:id="@+id/idTxtGeralResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="0 litros"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/idTxtGeral"
+        app:layout_constraintStart_toStartOf="@+id/idTxtGeral"
+        app:layout_constraintTop_toBottomOf="@+id/idTxtGeral" />
+
+    <TextView
+        android:id="@+id/idTxtGeralMedioResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0 litros"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/idTxtGeralResult"
+        app:layout_constraintEnd_toEndOf="@+id/idTxtGeralMedio"
+        app:layout_constraintStart_toStartOf="@+id/idTxtGeralMedio"
+        app:layout_constraintTop_toTopOf="@+id/idTxtGeralResult" />
+
+    <TextView
+        android:id="@+id/idTxtInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:text="Consumo Geral"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/idTxtIndMedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:text="Consumo médio"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/idTxtInd"
+        app:layout_constraintStart_toEndOf="@+id/idTxtInd"
+        app:layout_constraintTop_toTopOf="@+id/idTxtInd" />
+
+    <TextView
+        android:id="@+id/idTxtIndResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="0 litros"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/idTxtInd"
+        app:layout_constraintStart_toStartOf="@+id/idTxtInd"
+        app:layout_constraintTop_toBottomOf="@+id/idTxtInd" />
+
+    <TextView
+        android:id="@+id/idTxtIndMedioResult"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="0 litros"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/idTxtIndResult"
+        app:layout_constraintEnd_toEndOf="@+id/idTxtIndMedio"
+        app:layout_constraintStart_toStartOf="@+id/idTxtIndMedio"
+        app:layout_constraintTop_toTopOf="@+id/idTxtIndResult" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/btn_personalizado"
+        android:text="voltar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

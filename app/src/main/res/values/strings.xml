@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">TrabalhoUnifor</string>
     <string name="txt_carregamento_inicial">Estamos carregando os dados de consumo aguarde um momento</string>
+    <string name="txt_erro">Algo deu errado no carregamento dos dados, verifique seu acesso a internet e clique em "voltar"
+    para tentar novamente.</string>
     <string name="txt_titulo_inicial">Gerenciador de consumo</string>
     <string name="txt_titulo_condominio"> Dados de consumo do condomínio</string>
     <string name="txt_titulo_individual"> Dados de consumo individual</string>
