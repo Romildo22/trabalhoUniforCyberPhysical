@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "964710045973",
+    "firebase_url": "https://cps-2020-condominio.firebaseio.com",
+    "project_id": "cps-2020-condominio",
+    "storage_bucket": "cps-2020-condominio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964710045973:android:ade01c11ca04d333efb11c",
+        "android_client_info": {
+          "package_name": "com.example.trabalhoUnifor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964710045973-fjr55jma8joneec8g255bvfbfrbfugga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAir5DqehnjkXUybmsH36LPSxdJErmeXbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964710045973-fjr55jma8joneec8g255bvfbfrbfugga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
