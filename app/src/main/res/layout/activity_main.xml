@@ -55,12 +55,12 @@
         android:id="@+id/idTxtGeralMedio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="62dp"
+        android:layout_marginStart="72dp"
         android:text="Consumo médio"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="12dp"
         android:textStyle="bold"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/idTxtGeral"
         app:layout_constraintStart_toEndOf="@+id/idTxtGeral"
         app:layout_constraintTop_toTopOf="@+id/idTxtGeral" />
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="55dp"
-        android:text="Consumo Geral"
+        android:text="Consumo Individual"
         android:textColor="@color/black"
         android:textSize="12dp"
         android:textStyle="bold"
@@ -111,12 +111,12 @@
         android:id="@+id/idTxtIndMedio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="62dp"
-        android:text="Consumo médio"
+        android:layout_marginStart="42dp"
+        android:text="Código de identificação"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="12dp"
         android:textStyle="bold"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="@+id/idTxtInd"
         app:layout_constraintStart_toEndOf="@+id/idTxtInd"
         app:layout_constraintTop_toTopOf="@+id/idTxtInd" />
@@ -127,10 +127,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="0 litros"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="12dp"
         android:textStyle="normal"
-        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/idTxtInd"
         app:layout_constraintStart_toStartOf="@+id/idTxtInd"
         app:layout_constraintTop_toBottomOf="@+id/idTxtInd" />
@@ -162,6 +162,34 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtNomeCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:text="nome do condominio:"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/idTxtIndResult" />
+
+    <TextView
+        android:id="@+id/txtEndCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="endereço"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/txtNomeCond"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNomeCond"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeCond" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
